@@ -125,11 +125,11 @@ function randomIndex() {
 }
 
 function render(winner) {
-  main.style.backgroundColor = winner.secondaryColor;
-  teamName.textContent = winner.teamName + " Won!!";
-  teamContainer.style.backgroundColor = winner.primaryColor;
   teamLogo.src = winner.logoSrc;
   fullName.textContent = winner.fullName;
+  teamName.textContent = winner.teamName + " Won!!";
+  teamContainer.style.backgroundColor = winner.primaryColor;
+  main.style.backgroundColor = winner.secondaryColor;
   trophies.textContent = winner.trophies;
   capName.textContent = winner.capName;
 }
