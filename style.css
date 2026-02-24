@@ -1,0 +1,96 @@
+@font-face {
+    font-family: sans;
+    src: url(./WorkSans-Regular.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans;
+
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background: #1a1a1a;
+    color: #fafafa;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main #team-name{
+    width: 300px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+main #team-container{
+    width: 400px;
+    height: 300px;
+    background-color: #fafafa;
+    border-radius: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+main #team-container #logo{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+main #team-container #full-name{
+    font-size: 1.5rem;
+    color: black;
+    padding-bottom: 30px;
+   flex-grow: end;
+    /* font-weight: 800; */
+}
+main #more-details{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    background-color: black;
+    /* padding: 10px; */
+
+}
+#trophies, #cap-name{
+    width: 50%;
+    padding: 15px 0px;
+}
+#trophies{
+    border-right: 1px solid white;
+    text-align: end;
+    padding-right: 20px;
+}
+main #more-details h2{
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+main button{
+    padding: 10px 30px;
+    margin-top: 20px;
+    background-color: rgb(144, 20, 20);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+main button:active{
+    scale: 0.95;
+    background-color: white;
+    color: rgb(144, 20, 20);
+}
+
