@@ -99,7 +99,7 @@ const teams = [
     secondaryColor: "#551D20"
   },
     {
-    teamName: "RCB",
+    teamName: "SH",
     logoSrc:
       "https://documents.iplt20.com/ipl/SRH/Logos/Logooutline/SRHoutline.png",
     fullName: "Sunrisers Hyderabad",
